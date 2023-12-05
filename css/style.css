@@ -510,7 +510,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 40px 0;
+	padding: 50px 0 40px 0;
 	color: #121d1f;
 	background-color: #FFCC00;
 }
@@ -622,6 +622,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 }
+
 #footer p {
 	font-size: 13px;
 }
