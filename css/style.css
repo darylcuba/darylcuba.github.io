@@ -65,8 +65,8 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	-webkit-padding: 0;
+	-moz-padding: 0;
 }
 hr {
 	height: 4px;
@@ -159,8 +159,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #FFCC00;
+	border-color: #FFCC00;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -355,6 +355,7 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>h4 {
 	opacity: 1;
+	backface-visibility:hidden;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
@@ -367,6 +368,7 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>i {
 	opacity: 1;
+	backface-visibility:hidden;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
@@ -510,7 +512,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 50px 0 40px 0;
+	padding: 100px 0 40px 0;
 	color: #121d1f;
 	background-color: #FFCC00;
 }
@@ -622,7 +624,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 }
-
 #footer p {
 	font-size: 13px;
 }
