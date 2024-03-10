@@ -21,7 +21,6 @@ h2 {
 	font-size: 34px;
 }
 h3, h4 {
-	text-transform: uppercase;
 	color: #121d1f;
 	font-size: 20px;
 	font-weight: 600;
@@ -66,18 +65,18 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	-webkit-padding: 0;
-	-moz-padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
 }
 hr {
 	height: 4px;
 	width: 70px;
 	text-align: center;
 	position: relative;
+	background: #7bc3d1;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
-	background-color: #FFCC00;
 }
 /* Navigation */
 #nav {
@@ -120,13 +119,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #FFCC00;
+	color: #7bc3d1;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #FFCC00;
+	color: #7bc3d1;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -148,7 +147,7 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #FFCC00;
+	background-color: #121d1f;
 	border-color: #121d1f;
 }
 .btn-primary {
@@ -160,8 +159,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #FFCC00;
-	border-color: #FFCC00;
+	background-color: #7bc3d1;
+	border-color: #7bc3d1;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -271,9 +270,9 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
+	background: #7bc3d1;
 	color: #fff;
 	padding: 6px 14px;
-	background-color: #FFCC00;
 }
 ol.type li a.active {
 	background: #121d1f;
@@ -356,7 +355,6 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>h4 {
 	opacity: 1;
-	backface-visibility:hidden;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
@@ -369,7 +367,6 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>i {
 	opacity: 1;
-	backface-visibility:hidden;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
@@ -515,7 +512,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background-color: #FFCC00;
+	background: #7bc3d1;
 }
 #contact h2 {
 	color: #fff;
