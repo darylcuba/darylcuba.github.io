@@ -29,6 +29,7 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+	text-align: justify;
 }
 p.intro {
 	font-size: 16px;
