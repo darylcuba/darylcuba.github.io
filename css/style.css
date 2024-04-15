@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
@@ -20,6 +20,16 @@ h2 {
 	margin-bottom: 30px;
 	font-size: 34px;
 }
+h7 {
+	line-height: 20px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 32px;
+	
+	
+}
 h3, h4 {
 	color: #121d1f;
 	font-size: 20px;
@@ -30,11 +40,16 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+h6 {
+	
+	font-weight: 700;
+	line-height: 20px;
+}
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 a {
 	color: #333;
@@ -540,7 +555,7 @@ ol.type li a:hover {
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	float: left;
 }
 #contact .form-control {
@@ -652,7 +667,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-width: 75%;
 }
 .intro .intro-text p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
