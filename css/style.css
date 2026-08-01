@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Poppins', sans-serif;
+	font-family:'Syne', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
@@ -7,30 +7,37 @@ body, html {
 	height: 100% !important;
 }
 h1 {
-	font-weight: 700;
+	font-family:'Syne', sans-serif;
+	font-weight: 900;
+	font-size: 52px;
 }
 h1 strong {
+	font-family:'Syne', sans-serif;
 	font-weight: 700;
 }
 h2 {
+	font-family:'Syne', sans-serif;
 	line-height: 20px;
 	margin: 0;
 	color: #121d1f;
-	font-weight: 400;
+	font-weight: 700;
 	margin-bottom: 30px;
-	font-size: 34px;
+	font-size: 42px;
 }
 h7 {
+	font-family: 'Syne', sans-serif;
+	font-weight: 700;
 	line-height: 20px;
 	margin: 0;
 	color: #ffffff;
 	font-weight: 400;
 	margin-bottom: 30px;
-	font-size: 30px;
+	font-size: 34px;
 	
 	
 }
 h3, h4 {
+	font-family:'Syne', sans-serif;
 	color: #121d1f;
 	font-size: 20px;
 	font-weight: 600;
@@ -46,10 +53,11 @@ h6 {
 	line-height: 20px;
 }
 p.intro {
-	font-size: 16px;
+	font-weight: 700;
+	font-size: 24px;
 	margin: 12px 0 0;
-	line-height: 24px;
-	font-family: 'Poppins', sans-serif;
+	line-height: 26px;
+	font-family:'Syne', sans-serif;
 }
 a {
 	color: #333;
@@ -115,6 +123,8 @@ hr {
 	outline: 0;
 }
 .navbar-custom .navbar-brand .navbar-toggle {
+	font-family: 'Syne', sans-serif;
+	font-weight: 500;
 	padding: 4px 6px;
 	font-size: 16px;
 	color: #fff;
@@ -173,6 +183,7 @@ hr {
 	border-radius: 0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
+	font-family:'Syne', sans-serif;
 	color: #fff;
 	background-color: #fdd935;
 	border-color: #fdd935;
